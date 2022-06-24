@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Calcular Nota</h1>
+        <div class="form-group">
+            <label for="nota1">Nota 1</label>
+            <input type="text" class="form-control" name="nota1" id="nota1" placeholder="15%">
+        </div>  
+        <div class="form-group">
+            <label for="nota2">Nota 2</label>
+            <input type="text" class="form-control" name="nota2" id="nota2" placeholder="25%">
+        </div>
+        <div class="form-group">
+            <label for="nota3">Nota 3</label>
+            <input type="text" class="form-control" name="nota3" id="nota3" placeholder="30%">
+        </div>  
+        <div class="form-group">
+            <label for="nota4">Nota 4</label>
+            <input type="text" class="form-control" name="nota4" id="nota4" placeholder="30%">
+
+        </div>
+        <div class="form-group">
+            <label for="notaexamen">NotaExamen</label>
+            <input type="text" class="form-control" name="notaexamen" id="notaexamen" placeholder="x si sacas rojo">
+
+        </div>
+          
+        <span id="promedio"></span>
+        <br>
+        <input type="button" value="Calcular" onclick="Calcular('nota1', 'nota2', 'nota3', 'nota4', 'notaexamen')">  
+        
+    </div>
+
+    
+    <script src="app.js"></script>
+</body>
+</html>

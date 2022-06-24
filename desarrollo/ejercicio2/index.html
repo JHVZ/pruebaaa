@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio2</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <div class="container">
+        <form>
+            <label for= "Producto"> Producto: </label>
+            <input type="text" name="Producto" id="producto">
+            <br>
+            <br>
+            <label for= "Producto"> Precio: </label>
+            <input type="number" name="precio" id="Precio">
+            <br>
+            <br>
+            <label for= "Producto"> Cantidad: </label>
+            <input type="number" name="Cantidad" id="Cantidad">
+            <br>
+            <br>
+        </form>
+
+        <button onclick="agregar();">Agregar</button>
+        <button onclick="borrar();">Borrar listado</button>
+    </div>
+
+    <div class="tab tab-2"></div>
+        <table id="registros" border="1">
+            <br>
+            <tr>
+                <td>Producto</td>
+                <td>Precio</td>
+                <td>Cantidad</td>
+                <td>Total</td>
+            </tr>
+        </table>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>
